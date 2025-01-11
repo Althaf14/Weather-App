@@ -14,7 +14,7 @@ var cont = document.getElementById("cont")
 
 function displayWheather() {
 
-
+  
   document.getElementById('inputDiv').classList.add('top-align');
   cont.style.display = "block";
   inputDiv.style.display = "none";
@@ -57,6 +57,7 @@ function displayWheather() {
 }
 
 function searchBoxfn() {
+  
   inputDiv.style.display = "flex";
   cont.style.display = "none";
   searchBox.focus();

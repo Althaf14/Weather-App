@@ -245,7 +245,7 @@ h1 {
   
   h1 {
     margin-top: 55px;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #ffffff;
     margin-left: 10px;
   }
@@ -365,7 +365,7 @@ h1 {
   #humidity {
     font-size: 1em;
     color: #fff;
-    font-weight: 400;
+    font-weight: 530;
     margin-left: 10px
   }
   
@@ -442,7 +442,7 @@ h1 {
   .search-icon {
     font-size: 1.7em;
     position:absolute;
-   left: 300px;
+   left: 85%;
     top: 75px;
   }
 
@@ -459,13 +459,13 @@ h1 {
 
   .gitHub{
     position: relative;
-    top: 320px;
+    top: 400px;
     right: 145px;
   }
   
   .insta{
     position: relative;
-    top: 320px;
+    top: 400px;
     right: 115px;
   }
 
