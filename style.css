@@ -1,0 +1,407 @@
+* {
+  margin: 0px;
+  /* outline: solid red 2px;   */
+}
+
+body {
+  margin: 0;
+  background-color: #0B122F;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cont {
+  display: none;
+}
+
+.fa-location-dot {
+  color: grey;
+  font-size: 2em;
+  margin-top: 70px;
+  position: relative;
+  left: 140px;
+}
+
+.city-name {
+  display: flex;
+  height: 130px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 3em;
+  color: #fff;
+  margin-left: 150px;
+}
+
+.temp {
+  display: flex;
+  height: 250px;
+  width: 100%;
+}
+
+
+.clouds {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+
+.deg {
+  width: 50%;
+  height: 100%;
+  /* text-align: center; */
+ 
+}
+
+.details-cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.details-cont div {
+  height: 150px;
+  width: 20%;
+  margin-left: 50px;
+}
+
+.celsius {
+  font-size: 5em;
+  margin-top: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.feel {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#cloudImg {
+  margin-left: 300px;
+}
+
+#sky {
+  font-size: 1.4em;
+  color: white;
+  font-weight: 600;
+  margin-left: -140px;
+}
+
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pressure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.max-temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detials-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181d3d;
+  border-radius: 8px;
+  max-height: 80%;
+  min-width: 80%;
+}
+
+#humidity {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px
+}
+
+.detials-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+#windSpeed {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px
+}
+
+#pressure {
+  font-size: 1.2em;
+  color: white;
+  margin-left: 8px;
+}
+
+.max-temp-img {
+  width: 70px;
+  height: 70px;
+}
+
+#maxTemp {
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 60%;
+  background-color: #181d3d;
+  position: relative;
+  top: 200px;
+  left: 270px;
+  border-radius: 8px;
+}
+
+#searchBox {
+  background-color: #9AB9D5;
+  border: none;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  position: relative;
+  right: 15px;
+  outline: none;
+  padding-left: 14px;
+  font-size: 1.1em;
+  font-weight: 540;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fa-magnifying-glass {
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  position: relative;
+  top: 4px;
+  font-size: 1.5em;
+}
+
+
+.search-icon {
+  font-size: 2.5em;
+  position: absolute;
+  right: 140px;
+  top: 65px;
+}
+
+@media screen and (max-width:767px){
+
+  .cont {
+    display: none;
+  }
+  
+  h1 {
+    margin-top: 60px;
+    font-size: 3em;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .city-name {
+    display: flex;
+    height: 130px;
+  }
+  
+  .temp {
+    display: flex;
+    height: 250px;
+    width: 100%;
+  }
+  
+  .fa-location-dot {
+    color: grey;
+    font-size: 2em;
+    margin-top: 70px;
+    margin-left: 30px;
+  
+  }
+  
+  .clouds {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .deg {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .details-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .details-cont div {
+    height: 200px;
+    width: 50%;
+  }
+  
+  .celsius {
+    font-size: 5em;
+    margin-top: 80px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .feel {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  #cloud {
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  #sky {
+    font-size: 1.4em;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pressure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .max-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .detials-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181d3d;
+    border-radius: 8px;
+    max-height: 80%;
+    min-width: 80%;
+  }
+  
+  #humidity {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 10px
+  }
+  
+  .detials-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  #windSpeed {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 10px
+  }
+  
+  #pressure {
+    font-size: 1.2em;
+    color: white;
+    margin-left: 8px;
+  }
+  
+  .max-temp-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-right: 30px;
+  }
+  
+  #maxTemp {
+    font-size: 1.05em;
+    font-weight: 400;
+    color: #fff;
+    margin-left: -20px;
+  }
+  
+  .input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    background-color: #181d3d;
+    position: relative;
+    top: 300px;
+    left: 40px;
+    border-radius: 8px;
+  }
+  
+  #searchBox {
+    background-color: #9AB9D5;
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+    position: relative;
+    right: 15px;
+    outline: none;
+    padding-left: 7px;
+  }
+  
+  .fa-magnifying-glass {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    font-size: 1.5em;
+  }
+  
+  
+  .search-icon {
+    font-size: 2.5em;
+    position: absolute;
+    right: 240px;
+    top: 65px;
+  }
+
+}

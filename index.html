@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wheather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+
+<body>
+
+  <div class="input-div" id="inputDiv">
+    <input type="text" placeholder="Enter city name" id="searchBox">
+    <i class="fa-solid fa-magnifying-glass" id="searchIcon" onclick="displayWheather()"></i>
+
+  </div>
+
+  <div id="cont" class="cont">
+    <div class="city-name">
+      <i class="fa-solid fa-location-dot"></i>
+      <h1 id="cityName" class="test2">Kochi</h1>
+      <i class="fa-solid fa-magnifying-glass search-icon" id="searchIcon" onclick="searchBoxfn()" onkeypress="enterKey(event)"></i>
+    </div>
+    <div class="temp">
+      <div class="clouds">
+        <img id="cloudImg" src="imgs/clear.png">
+        </img>
+        <span id="sky">clear</span>
+
+      </div>
+      <div class="deg">
+        <p id="celsius" class="celsius">31°c</p>
+        <p id="feel" class="feel">Feels Like 32°c</p>
+
+      </div>
+    </div>
+    <div class="details-cont">
+
+      <div class="humidity">
+        <div class="detials-div">
+          <img src="imgs/humidity.png" alt="humidity" class="detials-img">
+          <p id="humidity">66% Humidity</p>
+
+        </div>
+
+      </div>
+      <div class="wind">
+        <div class="detials-div">
+          <img src="imgs/wind.png" alt="wind" class="detials-img">
+          <p id="windSpeed">4.85 km/h Wind Speed</p>
+        </div>
+      </div>
+      <div class="pressure">
+        <div class="detials-div">
+          <img src="imgs/pressure.png" alt="pressure" class="detials-img pressure-img">
+          <p id="pressure">1009 mbar Air Pressure</p>
+
+        </div>
+
+      </div>
+      <div class="max-temp">
+        <div class="detials-div">
+          <img src="imgs/max-temp.png" alt="max-temp" class="detials-img max-temp-img">
+          <p id="maxTemp">32 °c</p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
