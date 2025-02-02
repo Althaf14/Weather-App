@@ -174,12 +174,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  height: 180px;
   width: 50%;
   background-color: #181d3d;
   position: relative;
   top: 200px;
-  left: 270px;
+  left: 350px;
   border-radius: 8px;
 }
 
@@ -216,13 +216,13 @@ h1 {
 }
 
 .fa-github{
-  font-size: 1.3em;
+  font-size: 1.9em;
   color: #fff;
 }
 
 .fa-instagram{
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.9em;
 }
 
 .gitHub{
